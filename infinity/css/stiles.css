@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font: small-caps 200%/50% serif ;
+    background-image: url(../img/f3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .asd{
+    border-radius: 50px;
+    border: rgb(10, 158, 106) solid 15px;
+    background: radial-gradient(rgba(193, 213, 233, 0.6), rgba(3, 141, 83, 0.6));
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    text-align: center;
+    margin: 10px auto;
+
+  }
+  .asd:hover{
+    border-radius: 50px;
+    border: rgb(3, 71, 104) solid 15px;
+    background: radial-gradient(rgba(69, 146, 224, 0.6), rgba(53, 241, 162, 0.6));
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    text-align: center;
+    margin: 10px auto;
+  }
+  #lis{
+    text-align: center;
+    color: rgb(89, 192, 123, 0.5);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 40%;
+    height: 15%;
+  }
+ 
+  .ini{
+    font: small-caps 50%/10% serif ;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(3, 131, 89);
+  }
+  .ini:hover{
+    background-color: rgb(14, 245, 225);
+  }
+
+
+  .input-container {
+    position: relative;
+    width: 36%;
+    margin-left: 30% ;
+    border-radius: 5px;
+}
+
+.input-effect input:focus + label, .input-effect input:valid + label {
+    top: -20px;
+
+    color: #000000; /* Cambia el color al que prefieras */
+    
+}
+
+.input-effect label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #043917;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+.input-effect input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Estilos para dispositivos móviles */
+@media(max-width: 700px) {
+  .asd{
+    border-radius: 50px;
+    border: rgb(10, 158, 106) solid 15px;
+    background: radial-gradient(rgba(193, 213, 233, 0.6), rgba(3, 141, 83, 0.6));
+    width: 90%;
+    height: 100%;
+    max-height: 1200px;
+    text-align: center;
+    margin: 10px auto;
+
+  }
+  .asd:hover{
+    border-radius: 50px;
+    border: rgb(3, 71, 104) solid 15px;
+    background: radial-gradient(rgba(69, 146, 224, 0.6), rgba(53, 241, 162, 0.6));
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin: 10px auto;
+  }
+}

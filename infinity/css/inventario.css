@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font: small-caps 100%/80% serif ;
+    background-image: url(../img/f3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+    width: 100%;
+}
+
+th{
+    background-color: rgb(48, 158, 158);
+    border-radius: 5px;
+    border: solid 5px;
+}
+.btn{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    justify-content: flex-end;
+}
+
+td{
+    background-color: rgb(61, 223, 223);
+    width: 10%;
+    border-radius: 5px;
+    border: solid 5px;
+}
+.pri{
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(196, 225, 237);
+}
+.pri:hover{
+    background-color: rgb(22, 187, 165);
+    border-radius: 15px;
+    border: rgb(7, 115, 188) solid;
+}
+.lle{
+    border: 15px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(196, 225, 237);
+}
+.lle:hover{
+    background-color: rgb(22, 187, 165);
+    border-radius: 15px;
+    border: rgb(7, 115, 188) solid 5px;
+}
+.fom{
+    font-size: 20px;
+    text-align: center;
+}
+
+#n{
+    width: 200px;
+    font-size: 20px;
+}
+#bb{
+    width: 200px;
+    margin-left: -5px;
+}
+#ag, #vol{
+    margin-left: 20px;
+}
+#j{
+    width: 200px;
+}
+.men{
+    position: absolute;
+    margin: 200px 40%;
+    
+}
+.volv{
+    text-decoration: none;
+    background-color:rgb(230, 230, 230);
+    color: black;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 17px;
+}

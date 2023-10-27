@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <title>Web</title>
+</head>
+<body>
+  <header class="cap">
+    <div class="logo" href=>Finca Marsella</div>
+    <nav class="nnn">
+      <div class="hamburger-menu" id="hamburger-menu" onclick="toggleNav()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li class="text-with-line"><a href="#Carrusel" >Inicio</a></li>
+        <li class="text-with-line"><a href="#Producto">Producto</a></li>
+        <li class="text-with-line"><a href="#Acerca de">Acerca de</a></li>
+        <li class="text-with-line"><a href="#Sesiones">sesiones</a></li>
+        <li class="text-with-line"><a href="#Aprendizaje">Aprendizaje</a></li>
+        <li class="text-with-line"><a href="../php/contactos.php">contactos</a></li>
+        <li class="text-with-line"><a href="../php/lyr.php">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="enca" id="Carrusel"></div>
+  <section class="carousel" id="set1">
+    <div class="esp">
+      <div class="slide-container">
+          
+        <div class="slides">
+          <img alt="1" src="../img/st1.jpeg" class="active">
+          <img alt="2" src="../img/st2.jpeg">
+          <img alt="3" src="../img/st3.jpeg">
+        </div>
+        <div class="dotsContainer">
+          <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+          <div class="dot" attr='1' onclick="switchImage(this)"></div>
+          <div class="dot" attr='2' onclick="switchImage(this)"></div>
+        </div>
+        
+        <div class="buttons">
+          <span class="next">&#10095;</span>
+          <span class="prev">&#10094;</span>
+        </div>
+        <script src="../script/script.js"></script>
+      </div>
+    </div>
+
+    
+  </section>
+  <div class="enca" id="Producto"></div>
+<section class="section" id="set2">
+  <div class="esp">
+    <h2>Productos</h2>
+    <div class="cccc">
+      <div class="coon">
+        <img id="ian" src="../img/verd.png" alt="Limón Tahití">
+        <div class="coon1">
+          <h3>Limón Tahití verde</h3>
+          <p>La cáscara del limón Tahití es de color verde intenso hasta que madura y se torna a amarillo pálido, mientras que la pulpa tiene un color amarillo verdoso cuando madura. El fruto usualmente no tiene semilla.</p>
+        </div>
+      </div>
+      <div class="coon">
+        <img id="ian" src="../img/jec.png" alt="Limón Tahití">
+        <div class="coon1">
+          <h3>Limón Tahití jecho</h3>
+          <p>Tiene un gran poder anti bacteriano y se recomienda para perder de peso gracias a sus propiedades digestivas. Los limones contienen ácido cítrico- calcio- magnesio- vitamina C- bioflavonas- pectina y limoneno. Consúmelos frescos y prepara vinagretas- limonadas y ceviches.</p>
+        </div>
+      </div>
+      <div class="coon">
+        <img id="ian" src="../img/mad.png" alt="Limón Tahití">
+        <div class="coon1">
+          <h3>Limón Tahití amarillo</h3>
+          <p>El Limón Tahití es una variedad híbrida de limón. Se caracteriza por su cáscara lisa de color amarillo cuando está maduro.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <div class="enca" id="Acerca de"></div>
+  <section class="section" id="set3">
+  <div class="esp">
+    <h2>Informacion del cultivo</h2>
+    <div class="tdel">
+      <div class="p0">
+        <img class="ims1" src="../img/s1.jpeg" alt="">
+        <img class="ims2" src="../img/s2.jpeg" alt="">
+        <img class="ims3" src="../img/s3.jpeg" alt="">
+      </div>
+      <p class="p1">El árbol del limón Tahití es moderadamente vigoroso, de mediano a grande, 
+         crece hasta 15 o 20 pies (4.5-6 m), casi sin espinas, amplio y de ramas colgantes. 
+          Las hojas son anchas y lanceoladas, con pecíolos alados; los brotes jóvenes son púrpura. 
+          Las flores, se producen de vez en cuando durante el año, pero principalmente en enero,
+           son ligeramente teñidas de púrpura. El fruto es ovalado, obovado, oblongo o corto-elíptico,
+            generalmente redondeado en la base, ocasionalmente acanalado o con cuello corto,
+             el ápice es redondeado con un pezón chico, 1 1/2 a 2 1/2 pulgadas (4-6.25 cm) de ancho,
+              2 a 3 pulgadas (5-7.5 cm) de alto; es de color verde intenso hasta que madura, 
+              cuando la piel se convierte a color amarillo pálido, lisa, delgada, aferrada fuertemente, 
+              la pulpa es de color amarillo verdoso claro cuando está maduro, en 10 segmentos, tierna, ácida, 
+              pero sin el aroma característico del limón criollo.</p>  
+    </div>
+  </div>
+  </section>
+  <div class="enca" id="Sesiones"></div>
+  <section class="section" id="set4">
+  <div class="esp">
+    <h2>Sección de cultivo</h2>
+    <p class="p2">Dado el «dinamismo del mercado a nivel nacional e internacional», y a la ausencia de aranceles a las exportaciones colombianas de limones a Estados Unidos y a la Unión Europea, el cultivo del limón es «muy rentable», puntualiza el experto.
+      En cultivos de limón Tahití, el arreglo apropiado para la distribución de los árboles en campo es el de rectángulo, guardando distancias de siembra de 8 x 5 metros (250 plantas por hectárea) u 8 x 6 metros (208 plantas hectárea), las cuales varían de acuerdo con la topografía, el patrón y la fertilidad del suelo.
+
+    </p>
+    <div class="c">
+      <img class="ims1" src="../img/seccion1.jpeg" alt="">
+      <img class="ims1" src="../img/seccion2.jpeg" alt="">
+      <img class="ims1" src="../img/seccion3.jpeg" alt="">
+    </div>
+  </div>
+  </section>
+  <div class="enca" id="Aprendizaje"></div>
+  <section class="section" id="set5">
+  <div class="esp">
+    <h2>Aprendizaje</h2>
+    <div class="qqqqq">
+      <div class="container111">
+        <div class="content">
+          <div class="image-container">
+            <img src="../img/s30.jpeg" alt="Imagen">
+          </div>
+          <div class="title">
+            <h2>Pradera</h2>
+            <p>Aqui se pueden observar los mejores prados para comienzar a siembrar el cultivo. </p>
+          </div>
+        </div>
+      </div>
+      <div class="container111">
+        <div class="content">
+          <div class="image-container">
+            <img src="../img/s31.jpeg" alt="Imagen">
+          </div>
+          <div class="title">
+            <h2>Terreno</h2>
+            <p>Desde esta imagen sobra ver el terreno extenso y con viabilidad para la siembra del cultivo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container111">
+        <div class="content">
+          <div class="image-container">
+            <img src="../img/s32.jpeg" alt="Imagen">
+          </div>
+          <div class="title">
+            <h2>Correderos</h2>
+            <p> Por estos lados se obtienen pueden observar los correderos de agua suministrada en el cultivo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container111">
+        <div class="content">
+          <div class="image-container">
+            <img src="../img/s33.jpeg" alt="Imagen">
+          </div>
+          <div class="title">
+            <h2>Lineas</h2>
+            <p>Es importante tener en cuenta que los arboles de se dividen en filas y columna como se puede observar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </section>
+  <footer>
+    <p> &COPY; 2023 Finca Marsella. Todos los derechos reservados  </p>
+    <p>Version numero 1.0</p>
+    <div class="iman">
+
+    </div>
+  </footer>
+</body>
+</html>

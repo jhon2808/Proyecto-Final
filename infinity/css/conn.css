@@ -1,0 +1,147 @@
+body {
+    width: 100%;
+    margin: 0;
+    font: small-caps 100%/80% serif ;
+    background-image: url(../img/f3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  header {
+    top: 0;
+    background-color: rgb(19, 169, 139);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(14, 4, 4);
+    height: 60px;
+  }
+  .text-with-line {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 5px; /* Espacio para la línea */
+    cursor: pointer;
+  }
+  .text-with-line::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    transform: scaleX(0); /* Inicia sin ancho */
+    transition: transform 0.3s ease; /* Agregar una transición */
+  }
+  .text-with-line:hover::after {
+    transform: scaleX(0.5); /* Aparece la línea en hover */
+    transform: scale(1);
+    background-color: aqua;
+  }
+  
+
+  .nav-links.active {
+    display: flex;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+  }
+  .loga {
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+.con{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+img{
+    width: 25px;
+}
+.c{
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.connn{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(131, 189, 189, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 700px) {
+
+    /* ... (mismos estilos que proporcioné anteriormente) */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: rgb(63, 182, 142) ;
+        text-align: center;
+        height: auto;
+        align-items: flex-end;
+       
+      }
+    nav li{
+        margin-top: 5%;
+    }
+      .hamburger-menu {
+        display: flex;
+      }
+    }
